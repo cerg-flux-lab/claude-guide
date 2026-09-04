@@ -89,7 +89,9 @@ Most disappointing outputs are underspecified prompts. Five habits fix ninety pe
 
 **2. Say what the output is for and what shape it should take.**
 
-Specify the audience, the length, the format, and the destination. "A 200-word abstract for a CFD conference, no citations" beats "write me an abstract."
+Specify the audience, the length, the format, and the destination. "A 200-word abstract for a CFD conference, no citations" beats "write me an abstract.". 
+
+**Test Question, "based on the gaurdrails, should Claude draft an abstract?"**
 
 **3. Use examples.** Paste one figure caption you like, then ask for five more in that style. Positive and negative examples both help — "not like this: [example]" is a legitimate instruction.
 
@@ -102,7 +104,7 @@ Specify the audience, the length, the format, and the destination. "A 200-word a
 - **Ask Claude to critique, not to produce.** "Here is my argument for why the AQT cooling model needs a two-phase treatment. Find the three weakest links." This is Tier 1–safe and often the highest-value use of the tool.
 - **Ask it to interrogate you.** "Ask me questions until you understand my research problem well enough to explain it back." Excellent for clarifying your own thinking before you write.
 - **Tell it when it's wrong.** It is not always right, and it will fold too easily if you push without cause. Push only when you have a reason.
-- **Claude hallucinates citations.** It has no live bibliographic database unless you give it one. Every reference it produces must be verified against the actual paper. Use the PubMed/bioRxiv/Consensus connectors (§7) rather than trusting recall.
+- **Claude hallucinates citations.** It has no live bibliographic database unless you give it one. Every reference it produces must be verified against the actual paper. Use the PubMed/bioRxiv/Consensus connectors (§7) rather than trusting recall. **You still have to read these papers and not use Claude to summarise it with reading it and verifying the summaries against your understanding of the papers**
 
 ### 4.2 Recipes for common Lab tasks
 
